@@ -10,6 +10,7 @@ Code for the chatbot we're working on
     - [Get a sandbox](#get-a-sandbox)
     - [Create an Ngrok account](#ngrok-account)
     - [Setting up javascript server](#js-set-up)
+    - [Setting up the python server](#py-set-up)
 
 ## Requirements
 
@@ -49,4 +50,24 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 
 ```shell
     npm install
+```
+
+### Py Ser-Up
+
+**Note: To do this, you should have Python and the *pipenv python package* installed**
+- Navigate to the folder in your terminal;
+
+```shell
+    cd ./python_bot
+```
+- If you do not have pipenv, install it by running;
+
+```shell
+    pip install pipenv
+```
+
+- Install necessary packages by running;
+
+```shell
+    pipenv sync
 ```
