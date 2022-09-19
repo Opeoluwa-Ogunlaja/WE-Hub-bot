@@ -41,7 +41,8 @@ def reply_request(request, responseObj, step, session_handler):
 
     print("msg-->", msg)
 
-    step = session_handler.retrieve_tel_session(tel);
+    user_session = session_handler.retrieve_tel_session(tel);
+    step = user_session
 
     reply = responseObj.message
 

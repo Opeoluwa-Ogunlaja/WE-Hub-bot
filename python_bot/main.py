@@ -56,9 +56,9 @@ def wa_sms_reply():
     ## ---------- TO BE UPDATED ---------------- # """
     step = None
     try:
-        step = session_handler.retrieve_tel_session(tel)
+        user_session = session_handler.retrieve_tel_session(tel)
     except KeyError:
-        step = session_handler.create_tel_session(tel, 0)
+        user_session = session_handler.create_tel_session(tel, 0)
     
     # step = session_handler.create_tel_session(tel, 0)
 
@@ -74,7 +74,7 @@ def wa_sms_reply():
         return("")
 
     """ Reply 😁😁 """
-    return str(reply_request(request, resp, step, session_handler))
+    return str(reply_request(request, resp, user_session, session_handler))
 
 
 if __name__ == "__main__":
