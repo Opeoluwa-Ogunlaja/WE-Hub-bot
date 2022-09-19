@@ -129,11 +129,11 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 
 ### Run Python
 
+***In your Terminal***
 ```shell
     cd ./python_bot
 ```
 
-***In your Terminal***
 - Activate the Environment
 
 ```shell
