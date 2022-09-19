@@ -6,6 +6,9 @@ Code for the chatbot we're working on
 
 - [Requirements](#requirements)
 - [Built with](#built-with)
+- [How to Use](#how-to-use)
+    - [Get a sandbox](#get-a-sandbox)
+    - [Create an Ngrok account](#ngrok-account)
 
 ## Requirements
 
@@ -21,3 +24,13 @@ Before proceeding, you should install;
 
 - Python
 - Javacript
+
+## How to use
+
+### Get a Sandbox
+
+To do this, Create an account [here](https://www.twilio.com/docs/whatsapp/sandbox) and complete the process.
+
+### Ngrok account
+
+Create an Ngrok account and download the software [here](https://ngrok.com/)
