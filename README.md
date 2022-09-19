@@ -13,6 +13,8 @@ Code for the chatbot we're working on
     - [Setting up the python server](#py-set-up)
 - [How to Use](#how-to-use)
     - [Start Ngrok](#start-ngrok) 
+    - [Run Python](#run-python)
+    - [Run JavaScript](#run-js)
 - [Customisation]
 
 ## Requirements
@@ -43,6 +45,8 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 ### JS Set-Up
 
 **Note: To do this, you should have NodeJS installed**
+
+*** In your Terminal ***
 - Navigate to the folder in your terminal;
 
 ```shell
@@ -58,11 +62,14 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 ### Py Set-Up
 
 **Note: To do this, you should have Python and the *pipenv python package* installed**
+
+*** In your Terminal ***
 - Navigate to the folder in your terminal;
 
 ```shell
     cd ./python_bot
 ```
+
 - If you do not have pipenv, install it by running;
 
 ```shell
@@ -84,8 +91,42 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
     ngrok http 5000 *(Or whatever port you choose for the python application)*
 ```
 
+### Run JS
+
+*** In your Terminal ***
+- Navigate to the folder in your terminal;
+
+```shell
+    cd ./node-backend_bot
+```
+
+- start the application
+
+```shell
+    npm run server
+```
+
+
+### Run Python
+
+```shell
+    cd ./python_bot
+```
+
+*** In your Terminal ***
+- Activate the Environment
+
+```shell
+    pipenv shell
+```
+- Run the program
+
+```shell
+    python main.py
+```
+
 ## Customisation
 
 *Individual READMEs will be provided in the individual folders*
-- [Javascript](node-backend_bot/README.md)
-- [Python](python_bot/README.md)
+- [For Javascript](node-backend_bot/README.md)
+- [For Python](python_bot/README.md)
