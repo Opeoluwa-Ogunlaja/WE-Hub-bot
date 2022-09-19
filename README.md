@@ -52,7 +52,7 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
     npm install
 ```
 
-### Py Ser-Up
+### Py Set-Up
 
 **Note: To do this, you should have Python and the *pipenv python package* installed**
 - Navigate to the folder in your terminal;
