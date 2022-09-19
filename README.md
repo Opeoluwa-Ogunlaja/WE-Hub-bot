@@ -139,7 +139,7 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 ```shell
     pipenv shell
 ```
-- Run the program
+- In the Virtual Environment, Run the program
 
 ```shell
     python main.py
