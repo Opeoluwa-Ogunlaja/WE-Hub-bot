@@ -9,6 +9,7 @@ Code for the chatbot we're working on
 - [How to Use](#how-to-use)
     - [Get a sandbox](#get-a-sandbox)
     - [Create an Ngrok account](#ngrok-account)
+    - [Setting up javascript server](#js-set-up)
 
 ## Requirements
 
@@ -34,3 +35,12 @@ To do this, Create an account [here](https://www.twilio.com/docs/whatsapp/sandbo
 ### Ngrok account
 
 Create an Ngrok account and download the software [here](https://ngrok.com/)
+
+### JS Set-Up
+
+**Note: To do this, you should have NodeJS installed**
+- Navigate to the folder in your terminal;
+
+```shell
+    cd ./node-backend_bot
+```
