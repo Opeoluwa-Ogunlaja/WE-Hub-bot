@@ -100,13 +100,14 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 
 ### Adding link to twilio console
 
-- Copy the tunnel link gotten from the ngrok terminal
+***Very Important***
+- **Copy the tunnel link gotten from the ngrok terminal**
 ![Tz8X34.png](https://imgpile.com/images/Tz8X34.png)
 
-- Update the link in your sandbox settings
+- **Update the link in your sandbox settings**
 ![Tz8Fzg.png](https://imgpile.com/images/Tz8Fzg.png)
 
-- Click save at the bottom of the page to save your settings
+- **Click save at the bottom of the page to save your settings***
 ![Tz8B9R.png](https://imgpile.com/images/Tz8B9R.png)
 
 
