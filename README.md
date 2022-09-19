@@ -7,13 +7,14 @@ Code for the chatbot we're working on
 - [Requirements](#requirements)
 - [Built with](#built-with)
 - [Set Up](#set-up)
-    - [Get a sandbox](#get-a-sandbox)
+    - [Get and activate a sandbox](#get-a-sandbox)
     - [Create an Ngrok account](#ngrok-account)
     - [Setting up javascript server](#js-set-up)
     - [Setting up the python server](#py-set-up)
 - [Customisation](#customisation)
 - [How to Use](#how-to-use)
     - [Start Ngrok](#start-ngrok) 
+    - [Add your link to your twilio console][#adding-link-to-twilio-console]
     - [Run Python](#run-python)
     - [Run JavaScript](#run-js)
 
@@ -36,7 +37,7 @@ Before proceeding, you should install;
 
 ### Get a Sandbox
 
-To do this, Create an account [here](https://www.twilio.com/docs/whatsapp/sandbox) and complete the process.
+To do this, Create an account [here](https://www.twilio.com/docs/whatsapp/sandbox) and complete the process. After that, you go to your *console > Messaging > settings > Whatsapp Sandbox Settings* and follow the instructions you see there
 
 ### Ngrok account
 
@@ -96,6 +97,18 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 ```shell
     ngrok http 5000
 ```
+
+### Adding link to twilio console
+
+- Copy the tunnel link gotten from the ngrok terminal
+![Tz8X34.png](https://imgpile.com/images/Tz8X34.png)
+
+- Update the link in your sandbox settings
+![Tz8Fzg.png](https://imgpile.com/images/Tz8Fzg.png)
+
+- Click save to save your settings
+![Tz8B9R.png](https://imgpile.com/images/Tz8B9R.png)
+
 
 ### Run JS
 
