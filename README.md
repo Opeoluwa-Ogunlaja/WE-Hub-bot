@@ -14,7 +14,7 @@ Code for the chatbot we're working on
 - [Customisation](#customisation)
 - [How to Use](#how-to-use)
     - [Start Ngrok](#start-ngrok) 
-    - [Add your link to your twilio console][#adding-link-to-twilio-console]
+    - [Add your link to your twilio console](#adding-link-to-twilio-console)
     - [Run Python](#run-python)
     - [Run JavaScript](#run-js)
 
