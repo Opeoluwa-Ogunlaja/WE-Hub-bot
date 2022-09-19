@@ -82,6 +82,12 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
     pipenv sync
 ```
 
+## Customisation
+
+*Individual READMEs will be provided in the individual folders*
+- [For Javascript](node-backend_bot/README.md)
+- [For Python](python_bot/README.md)
+
 ## How to use
 
 ### Start Ngrok
@@ -124,9 +130,3 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 ```shell
     python main.py
 ```
-
-## Customisation
-
-*Individual READMEs will be provided in the individual folders*
-- [For Javascript](node-backend_bot/README.md)
-- [For Python](python_bot/README.md)
