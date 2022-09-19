@@ -11,11 +11,11 @@ Code for the chatbot we're working on
     - [Create an Ngrok account](#ngrok-account)
     - [Setting up javascript server](#js-set-up)
     - [Setting up the python server](#py-set-up)
+- [Customisation](#customisation)
 - [How to Use](#how-to-use)
     - [Start Ngrok](#start-ngrok) 
     - [Run Python](#run-python)
     - [Run JavaScript](#run-js)
-- [Customisation](#customisation)
 
 ## Requirements
 
