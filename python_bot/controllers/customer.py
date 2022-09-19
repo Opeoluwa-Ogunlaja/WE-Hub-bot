@@ -75,7 +75,7 @@ class Customer_Queries:
         if status != 200:
             return {
                 "status": status,
-                "message": res["message"]
+                "message": update_query["message"]
             }
         else:
             return {
