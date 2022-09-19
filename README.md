@@ -94,7 +94,7 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 
 - In the ngrok terminal, run;
 ```shell
-    ngrok http 5000 *(Or whatever port you choose for the python application)*
+    ngrok http 5000
 ```
 
 ### Run JS
