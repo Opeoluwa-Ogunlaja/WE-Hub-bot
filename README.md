@@ -47,7 +47,7 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 
 **Note: To do this, you should have NodeJS installed**
 
-*** In your Terminal ***
+***In your Terminal***
 - Navigate to the folder in your terminal;
 
 ```shell
@@ -64,7 +64,7 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 
 **Note: To do this, you should have Python and the *pipenv python package* installed**
 
-*** In your Terminal ***
+***In your Terminal***
 - Navigate to the folder in your terminal;
 
 ```shell
@@ -113,7 +113,7 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 
 ### Run JS
 
-*** In your Terminal ***
+***In your Terminal***
 - Navigate to the folder in your terminal;
 
 ```shell
@@ -133,7 +133,7 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
     cd ./python_bot
 ```
 
-*** In your Terminal ***
+***In your Terminal***
 - Activate the Environment
 
 ```shell
