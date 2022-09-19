@@ -6,11 +6,14 @@ Code for the chatbot we're working on
 
 - [Requirements](#requirements)
 - [Built with](#built-with)
-- [How to Use](#how-to-use)
+- [Set Up](#set-up)
     - [Get a sandbox](#get-a-sandbox)
     - [Create an Ngrok account](#ngrok-account)
     - [Setting up javascript server](#js-set-up)
     - [Setting up the python server](#py-set-up)
+- [How to Use](#how-to-use)
+    - [Start Ngrok](#start-ngrok) 
+- [Customisation]
 
 ## Requirements
 
@@ -27,7 +30,7 @@ Before proceeding, you should install;
 - Python
 - Javacript
 
-## How to use
+## Set Up
 
 ### Get a Sandbox
 
@@ -71,3 +74,18 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 ```shell
     pipenv sync
 ```
+
+## How to use
+
+### Start Ngrok
+
+- In the ngrok terminal, run;
+```shell
+    ngrok http 5000 *(Or whatever port you choose for the python application)*
+```
+
+## Customisation
+
+*Individual READMEs will be provided in the individual folders*
+- [Javascript](node-backend_bot/README.md)
+- [Python](python_bot/README.md)
