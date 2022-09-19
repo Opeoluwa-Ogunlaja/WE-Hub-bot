@@ -1,0 +1,7 @@
+{
+  "backend": {
+    "root_url": "http://localhost:3000/",
+    "customers_url": "http://localhost:3000/customers/",
+    "customer_exists_message": "Customer Already Exists"
+  }
+}
