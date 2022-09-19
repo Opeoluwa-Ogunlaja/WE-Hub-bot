@@ -106,7 +106,7 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 - Update the link in your sandbox settings
 ![Tz8Fzg.png](https://imgpile.com/images/Tz8Fzg.png)
 
-- Click save to save your settings
+- Click save at the bottom of the page to save your settings
 ![Tz8B9R.png](https://imgpile.com/images/Tz8B9R.png)
 
 
