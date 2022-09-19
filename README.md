@@ -44,3 +44,9 @@ Create an Ngrok account and download the software [here](https://ngrok.com/)
 ```shell
     cd ./node-backend_bot
 ```
+
+- Install necessary packages by running;
+
+```shell
+    npm install
+```
