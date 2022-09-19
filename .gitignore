@@ -1,0 +1,8 @@
+# Node ignore
+package-lock.json
+node_modules/
+
+# Python git ignore stuff
+__pycache__/
+.idea/
+flask_session/
